@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image' 
 import { FaHammer, FaProjectDiagram, FaPencilRuler, FaTools, FaHome } from 'react-icons/fa'
 
 export const metadata: Metadata = {
@@ -13,30 +14,35 @@ export default function ServicesPage() {
       title: 'Building Construction',
       description: 'We deliver new build projects, renovations, and extensions for residential, commercial, and industrial clients. Our experienced team ensures quality construction that meets your specifications and exceeds expectations.',
       features: ['New builds', 'Renovations', 'Extensions', 'Commercial buildings', 'Industrial facilities'],
+      image: '/assets/jawor2.jpeg', 
     },
     {
       icon: <FaProjectDiagram size={48} />,
       title: 'Project Management',
       description: 'Our experienced project managers oversee projects from concept to completion, ensuring that they are delivered on time, on budget, and to the required quality standards.',
       features: ['Full project oversight', 'Budget management', 'Timeline adherence', 'Quality control', 'Risk management'],
+      image: '/assets/jawor3.jpeg',
     },
     {
       icon: <FaPencilRuler size={48} />,
       title: 'Design and Build',
       description: 'We work with architects, engineers, and designers to deliver innovative and sustainable construction solutions tailored to your needs.',
       features: ['Architectural design', 'Engineering solutions', 'Sustainable design', 'Custom solutions', 'Integrated delivery'],
+      image: '/assets/jawor4.jpeg',
     },
     {
       icon: <FaTools size={48} />,
       title: 'Maintenance and Repair',
       description: 'We provide maintenance and repair services for existing buildings, ensuring that they remain safe, functional, and efficient throughout their lifecycle.',
       features: ['Regular maintenance', 'Emergency repairs', 'Safety inspections', 'Preventive care', 'System upgrades'],
+      image: '/assets/jawor5.jpeg', 
     },
     {
       icon: <FaHome size={48} />,
       title: 'Renovations and Refurbishments',
       description: 'We deliver renovation and refurbishment projects for residential, commercial, and industrial clients, breathing new life into existing structures.',
       features: ['Interior renovations', 'Exterior upgrades', 'Modernization', 'Space optimization', 'Value enhancement'],
+      image: '/assets/jr1.jpeg', 
     },
   ]
 
@@ -74,16 +80,13 @@ export default function ServicesPage() {
                 </ul>
               </div>
               <div className={index % 2 === 1 ? 'lg:order-1' : ''}>
-                <img
-                  src={`https://images.unsplash.com/photo-${
-                    index === 0 ? '1504307651254-35680f356dfd' :
-                    index === 1 ? '1454165804606-c3d57bc86b40' :
-                    index === 2 ? '1503387762-592deb58ef4e' :
-                    index === 3 ? '1581578731362-ce1e3a39b6e6' :
-                    '1513467535987-fd81bc7d62f8'
-                  }?w=800&q=80`}
+                <Image
+                  src={service.image}
                   alt={service.title}
+                  width={600} 
+                  height={400}
                   className="w-full h-96 object-cover rounded-lg shadow-xl"
+                  priority={index === 0} 
                 />
               </div>
             </div>
