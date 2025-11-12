@@ -46,7 +46,7 @@ const Services = () => {
               className="card p-8 text-center animate-slide-up hover:scale-105 transition-transform duration-300"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="text-accent-600 flex justify-center mb-4">
+              <div className="text-accent-900 flex justify-center mb-4">
                 {service.icon}
               </div>
               <h3 className="text-xl font-semibold mb-3">{service.title}</h3>

@@ -64,19 +64,19 @@ export default function InternshipsPage() {
               <h2 className="text-2xl font-semibold mb-4">Why Intern With Us?</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex items-start">
-                  <span className="w-2 h-2 bg-accent-600 rounded-full mr-3 mt-2"></span>
+                  <span className="w-2 h-2 bg-accent-900 rounded-full mr-3 mt-2"></span>
                   <span>Hands-on experience on real projects</span>
                 </div>
                 <div className="flex items-start">
-                  <span className="w-2 h-2 bg-accent-600 rounded-full mr-3 mt-2"></span>
+                  <span className="w-2 h-2 bg-accent-900 rounded-full mr-3 mt-2"></span>
                   <span>Mentorship from experienced professionals</span>
                 </div>
                 <div className="flex items-start">
-                  <span className="w-2 h-2 bg-accent-600 rounded-full mr-3 mt-2"></span>
+                  <span className="w-2 h-2 bg-accent-900 rounded-full mr-3 mt-2"></span>
                   <span>Competitive stipend</span>
                 </div>
                 <div className="flex items-start">
-                  <span className="w-2 h-2 bg-accent-600 rounded-full mr-3 mt-2"></span>
+                  <span className="w-2 h-2 bg-accent-900 rounded-full mr-3 mt-2"></span>
                   <span>Opportunity for full-time employment</span>
                 </div>
               </div>
@@ -91,7 +91,7 @@ export default function InternshipsPage() {
                       <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm">
                         {internship.duration}
                       </span>
-                      <span className="px-3 py-1 bg-accent-100 text-accent-700 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-accent-100 text-accent-900 rounded-full text-sm">
                         {internship.location}
                       </span>
                     </div>
@@ -102,7 +102,7 @@ export default function InternshipsPage() {
                     <ul className="space-y-1">
                       {internship.requirements.map((req, idx) => (
                         <li key={idx} className="flex items-start text-gray-600">
-                          <span className="w-2 h-2 bg-accent-600 rounded-full mr-3 mt-2"></span>
+                          <span className="w-2 h-2 bg-accent-900 rounded-full mr-3 mt-2"></span>
                           {req}
                         </li>
                       ))}
