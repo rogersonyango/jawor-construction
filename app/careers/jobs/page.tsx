@@ -74,7 +74,7 @@ export default function JobsPage() {
                       <span className="px-3 py-1 bg-primary-100 text-primary-700 rounded-full text-sm">
                         {job.type}
                       </span>
-                      <span className="px-3 py-1 bg-accent-100 text-accent-700 rounded-full text-sm">
+                      <span className="px-3 py-1 bg-accent-100 text-accent-900 rounded-full text-sm">
                         {job.location}
                       </span>
                     </div>
@@ -85,7 +85,7 @@ export default function JobsPage() {
                     <ul className="space-y-1">
                       {job.requirements.map((req, idx) => (
                         <li key={idx} className="flex items-start text-gray-600">
-                          <span className="w-2 h-2 bg-accent-600 rounded-full mr-3 mt-2"></span>
+                          <span className="w-2 h-2 bg-accent-900 rounded-full mr-3 mt-2"></span>
                           {req}
                         </li>
                       ))}

@@ -61,13 +61,13 @@ export default function ServicesPage() {
               }`}
             >
               <div className={index % 2 === 1 ? 'lg:order-2' : ''}>
-                <div className="text-accent-600 mb-4">{service.icon}</div>
+                <div className="text-accent-900 mb-4">{service.icon}</div>
                 <h2 className="heading-tertiary mb-4">{service.title}</h2>
                 <p className="text-gray-700 mb-6">{service.description}</p>
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center text-gray-600">
-                      <span className="w-2 h-2 bg-accent-600 rounded-full mr-3"></span>
+                      <span className="w-2 h-2 bg-accent-900 rounded-full mr-3"></span>
                       {feature}
                     </li>
                   ))}

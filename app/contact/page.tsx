@@ -50,7 +50,7 @@ export default function ContactPage() {
 
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="text-accent-600 mr-4 mt-1">
+                  <div className="text-accent-900 mr-4 mt-1">
                     <FaMapMarkerAlt size={24} />
                   </div>
                   <div>
@@ -60,20 +60,19 @@ export default function ContactPage() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="text-accent-600 mr-4 mt-1">
+                  <div className="text-accent-900 mr-4 mt-1">
                     <FaPhone size={24} />
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:0772927899" className="hover:text-primary-600">0772927899</a><br />
                       <a href="tel:0759740732" className="hover:text-primary-600">0759740732</a>
                     </p>
                   </div>
                 </div>
 
                 <div className="flex items-start">
-                  <div className="text-accent-600 mr-4 mt-1">
+                  <div className="text-accent-900 mr-4 mt-1">
                     <FaEnvelope size={24} />
                   </div>
                   <div>

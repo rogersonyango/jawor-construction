@@ -23,7 +23,7 @@ const WhyChooseUs = () => {
             <ul className="space-y-4">
               {values.map((value, index) => (
                 <li key={index} className="flex items-start">
-                  <FaCheckCircle className="text-accent-600 mr-3 mt-1 flex-shrink-0" size={20} />
+                  <FaCheckCircle className="text-accent-900 mr-3 mt-1 flex-shrink-0" size={20} />
                   <span className="text-gray-700">{value}</span>
                 </li>
               ))}

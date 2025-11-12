@@ -59,7 +59,7 @@ export default function ValuesPage() {
                 key={index}
                 className="card p-8 text-center hover:scale-105 transition-transform duration-300"
               >
-                <div className="text-accent-600 flex justify-center mb-4">
+                <div className="text-accent-900 flex justify-center mb-4">
                   {value.icon}
                 </div>
                 <h3 className="text-2xl font-semibold mb-4">{value.title}</h3>

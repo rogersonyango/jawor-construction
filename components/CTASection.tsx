@@ -10,7 +10,7 @@ const CTASection = () => {
         <p className="text-xl mb-8 max-w-2xl mx-auto">
           Let's build something exceptional together. Contact us today for a consultation.
         </p>
-        <Link href="/contact" className="btn-primary bg-accent-600 hover:bg-accent-700 inline-block">
+        <Link href="/contact" className="btn-primary bg-accent-900 hover:bg-accent-900 inline-block">
           Get Started
         </Link>
       </div>

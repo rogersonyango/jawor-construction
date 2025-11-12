@@ -29,25 +29,25 @@ export default function MissionPage() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="card p-6">
-                <h3 className="text-xl font-semibold mb-3 text-accent-600">Client Focus</h3>
+                <h3 className="text-xl font-semibold mb-3 text-accent-900">Client Focus</h3>
                 <p className="text-gray-700">
                   Exceeding client expectations through exceptional service and quality delivery
                 </p>
               </div>
               <div className="card p-6">
-                <h3 className="text-xl font-semibold mb-3 text-accent-600">Safety First</h3>
+                <h3 className="text-xl font-semibold mb-3 text-accent-900">Safety First</h3>
                 <p className="text-gray-700">
                   Prioritizing the health and safety of everyone involved in our projects
                 </p>
               </div>
               <div className="card p-6">
-                <h3 className="text-xl font-semibold mb-3 text-accent-600">Quality Excellence</h3>
+                <h3 className="text-xl font-semibold mb-3 text-accent-900">Quality Excellence</h3>
                 <p className="text-gray-700">
                   Maintaining the highest standards in every aspect of our work
                 </p>
               </div>
               <div className="card p-6">
-                <h3 className="text-xl font-semibold mb-3 text-accent-600">Sustainability</h3>
+                <h3 className="text-xl font-semibold mb-3 text-accent-900">Sustainability</h3>
                 <p className="text-gray-700">
                   Building responsibly with consideration for environmental impact
                 </p>

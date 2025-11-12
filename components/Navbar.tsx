@@ -54,7 +54,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center space-x-2">
             <div className="text-2xl font-bold">
               <span className="text-primary-600">JAWOR</span>
-              <span className="text-accent-600"> 2023</span>
+              <span className="text-accent-900"> 2023</span>
             </div>
           </Link>
 

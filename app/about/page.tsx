@@ -59,15 +59,15 @@ export default function AboutPage() {
         <div className="container-custom">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="card p-8">
-              <div className="text-5xl font-bold text-accent-600 mb-2">2023</div>
+              <div className="text-5xl font-bold text-accent-900 mb-2">2023</div>
               <div className="text-gray-600">Year Founded</div>
             </div>
             <div className="card p-8">
-              <div className="text-5xl font-bold text-accent-600 mb-2">100+</div>
+              <div className="text-5xl font-bold text-accent-900 mb-2">100+</div>
               <div className="text-gray-600">Projects Completed</div>
             </div>
             <div className="card p-8">
-              <div className="text-5xl font-bold text-accent-600 mb-2">50+</div>
+              <div className="text-5xl font-bold text-accent-900 mb-2">50+</div>
               <div className="text-gray-600">Team Members</div>
             </div>
           </div>
