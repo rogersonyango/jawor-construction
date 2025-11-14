@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image' 
 import { FaBars, FaTimes, FaChevronDown } from 'react-icons/fa'
 
 const Navbar = () => {
@@ -49,13 +50,17 @@ const Navbar = () => {
       }`}
     >
       <div className="container-custom">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-22">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold">
-              <span className="text-primary-600">JAWOR</span>
-              <span className="text-accent-900"> 2023</span>
-            </div>
+          <Link href="/" className="flex items-center space-x-4">
+            <Image
+              src="/assets/jaworlogo.png" 
+              alt="JAWOR 2023 Logo"
+              width={120} 
+              height={30} 
+              className="object-contain"
+            />
+           
           </Link>
 
           {/* Desktop Navigation */}
@@ -155,3 +160,8 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+
+
+
+

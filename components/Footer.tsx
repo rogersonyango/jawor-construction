@@ -1,5 +1,9 @@
+
+
+
 import Link from 'next/link'
-import { FaFacebookF, FaLinkedinIn, FaInstagram, FaTwitter, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
+import Image from 'next/image'
+import { FaFacebookF, FaLinkedinIn, FaPhone, FaEnvelope, FaMapMarkerAlt } from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -8,10 +12,15 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold text-white mb-4">
-              <span className="text-primary-400">JAWOR</span>
-              <span className="text-accent-900"> 2023</span>
-            </h3>
+            <div className="flex items-center space-x-2 mb-4">
+              <Image
+                src="/assets/jaworlogo.png" 
+                alt="JAWOR 2023 Logo"
+                width={100} 
+                height={40} 
+                className="object-contain"
+              />
+            </div>
             <p className="text-sm mb-4">
               Building Excellence, Shaping Futures. Your trusted partner in construction and general supplies.
             </p>
@@ -22,12 +31,12 @@ const Footer = () => {
               <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">
                 <FaLinkedinIn size={20} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent-900 transition-colors">
+              {/* <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent-900 transition-colors">
                 <FaInstagram size={20} />
               </a>
               <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-primary-400 transition-colors">
                 <FaTwitter size={20} />
-              </a>
+              </a> */}
             </div>
           </div>
 
