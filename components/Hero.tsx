@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import { FaArrowRight } from 'react-icons/fa'
+import { FaArrowRight, FaHardHat, FaTruck, FaTools, FaCheckCircle } from 'react-icons/fa'
+
 
 const Hero = () => {
   return (
@@ -8,12 +9,31 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&q=80')"
+          backgroundImage: "url('/assets/jr1.jpeg')"
         }}
       />
       
       {/* Content */}
       <div className="container-custom relative z-10 text-center text-white animate-fade-in">
+
+        <div className="container-custom relative z-10 text-center text-white animate-fade-in">
+        {/* Trust indicators */}
+      <div className="flex flex-wrap justify-center gap-6 mb-6 text-sm">
+        <div className="flex items-center text-slate-200">
+            <FaCheckCircle className="text-green-400 mr-2" />
+            <span>Certified</span>
+          </div>
+          <div className="flex items-center text-slate-200">
+            <FaCheckCircle className="text-green-400 mr-2" />
+            <span>+ Years Experience</span>
+          </div>
+          <div className="flex items-center text-slate-200">
+           <FaCheckCircle className="text-green-400 mr-2" />
+            <span>+ Projects Delivered</span>
+          </div>
+        </div>
+</div>
+
         <h1 className="heading-primary text-white mb-6">
           Building Excellence,<br />Shaping Futures
         </h1>
@@ -42,3 +62,12 @@ const Hero = () => {
 }
 
 export default Hero
+
+
+
+
+
+
+
+
+
