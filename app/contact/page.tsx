@@ -96,7 +96,6 @@ export default function ContactPage() {
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
                     <p className="text-gray-600">
-                      <a href="tel:0772927899" className="hover:text-primary-600">0772927899</a><br />
                       <a href="tel:0759740732" className="hover:text-primary-600">0759740732</a>
                     </p>
                   </div>
