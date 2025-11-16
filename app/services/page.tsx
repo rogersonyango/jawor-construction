@@ -14,7 +14,7 @@ export default function ServicesPage() {
       icon: <FaHammer size={48} className="text-[#b01e41]" />,
       title: 'Building Construction',
       description:
-        'We deliver new build projects, renovations, and extensions for residential, commercial, and industrial clients. Our experienced team ensures quality construction that meets your specifications and exceeds expectations.',
+        'We deliver new build projects, renovations, and extensions for residential, commercial, and industrial clients. Our team ensures quality construction that meets your specifications and exceeds expectations.',
       features: ['New builds', 'Renovations', 'Extensions', 'Commercial buildings', 'Industrial facilities'],
       image: '/assets/jawor2.jpeg',
     },
