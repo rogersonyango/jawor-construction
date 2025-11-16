@@ -16,7 +16,7 @@ export default function ServicesPage() {
       description:
         'We deliver new build projects, renovations, and extensions for residential, commercial, and industrial clients. Our team ensures quality construction that meets your specifications and exceeds expectations.',
       features: ['New builds', 'Renovations', 'Extensions', 'Commercial buildings', 'Industrial facilities'],
-      image: '/assets/jawor2.jpeg',
+      image: '/assets/jawor3.jpeg',
     },
     {
       icon: <FaProjectDiagram size={48} className="text-[#b01e41]" />,
@@ -24,7 +24,7 @@ export default function ServicesPage() {
       description:
         'Our experienced project managers oversee projects from concept to completion, ensuring that they are delivered on time, on budget, and to the required quality standards.',
       features: ['Full project oversight', 'Budget management', 'Timeline adherence', 'Quality control', 'Risk management'],
-      image: '/assets/jawor3.jpeg',
+      image: '/assets/jawor_fencing.jpeg',
     },
     {
       icon: <FaPencilRuler size={48} className="text-[#b01e41]" />,
