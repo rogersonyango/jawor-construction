@@ -27,6 +27,11 @@ const Services = () => {
       title: 'Renovations',
       description: 'Professional renovation and refurbishment projects for all types of properties.',
     },
+     {
+      icon: <FaTools size={40} />,
+      title: 'Plans and structural drawings',
+      description: 'We make functional, and efficientplans for different buildings ensuring that they are upto the current trends and guidelines.',
+    },
   ]
 
   return (
