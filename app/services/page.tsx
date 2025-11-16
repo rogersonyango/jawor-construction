@@ -75,7 +75,7 @@ export default function ServicesPage() {
   return (
     <div className="pt-20">
       {/* HEADER */}
-      <section className="py-16 bg-gradient-to-br from-blue-700 to-blue-900 text-white">
+      <section className="py-16 bg-gradient-to-br from-primary-700 to-primary-900 text-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Our Services</h1>
           <p className="text-xl max-w-3xl mx-auto">
