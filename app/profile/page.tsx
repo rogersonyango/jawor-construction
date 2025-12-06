@@ -34,7 +34,7 @@ export default function ProfilePage() {
               <h2 className="heading-tertiary mb-4">Contact Information</h2>
               <div className="space-y-2 text-gray-700">
                 <p><strong>Location:</strong> Mukono, Kayunga Road, Uganda</p>
-                <p><strong>Telephone:</strong> 0772927899, 0759740732</p>
+                <p><strong>Telephone:</strong> 0759740732</p>
                 <p><strong>Email:</strong> jaworemmanuel@gmail.com</p>
               </div>
             </div>
